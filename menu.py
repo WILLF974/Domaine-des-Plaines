@@ -33,6 +33,7 @@ menu_Fichier.add_command(label = "Enregistrer")
 menu_Fichier.add_command(label = "Enregistrer sous")
 menu_Fichier.add_command(label = "Quitter", command = quit)
 # Ajout au menu Base de données
+menu_BD.add_command(label = "Nouveau type d'animal")
 menu_BD.add_command(label = "Nouvelle race")
 
 fen.config(menu = menu_Bar)
